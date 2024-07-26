@@ -6,9 +6,11 @@
 <script>
 
 export default{
-    name:"NavBarCom",
+    name:"NavbarCom",
     data(){
-        return
+        return{
+
+        }
     }
 
 }

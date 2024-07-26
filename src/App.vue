@@ -1,13 +1,19 @@
-<script setup>
-import NavBarCom from './components/NavBarCom.vue',
-components:{
-  NavBarCom,
+<template>
+  <NavbarCom />
+</template>
+
+
+
+<script >
+import NavbarCom from './components/NavbarCom.vue'
+export default {
+  name: 'App',
+  components:{
+    NavbarCom,
+  }
 }
 </script>
 
-<template>
-  <NavBarCom />
-</template>
 
 <style scoped>
 .logo {
